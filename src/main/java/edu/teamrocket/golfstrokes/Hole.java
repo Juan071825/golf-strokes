@@ -5,7 +5,7 @@ public class Hole {
     private final Byte number;
     private final Byte par;
 
-    Hole(Byte number, Byte par){
+    public Hole(Byte number, Byte par){
         this.number = number;
         this.par = par;
     }
@@ -22,10 +22,10 @@ public class Hole {
     @Override
     public String toString(){
         StringBuilder hoyo = new StringBuilder();
-        hoyo.append("Par: ");
+        hoyo.append("Number: ");
         hoyo.append(this.number);
         hoyo.append("  ");
-        hoyo.append("Number: ");
+        hoyo.append("Par: ");
         hoyo.append(this.par);
         String stringHoyo = hoyo.toString();
         return stringHoyo;
