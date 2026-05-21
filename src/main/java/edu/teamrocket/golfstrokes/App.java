@@ -74,7 +74,7 @@ public class App {
          * y añade a la tarjeta los jugadores A y B
          * Establece en la tarjeta el Course "Augusta".
          */
-       /*  ScoreCard scoreCard = new ScoreCard();
+        ScoreCard scoreCard = new ScoreCard();
         scoreCard.setPlayerA(playerA);
         scoreCard.setPlayerB(playerB);
         scoreCard.setPlayersCourse(augusta);
