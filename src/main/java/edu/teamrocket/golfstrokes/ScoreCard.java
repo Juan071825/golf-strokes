@@ -34,7 +34,7 @@ public class ScoreCard {
         this.playerD = Optional.of(player);
     }
 
-    public void setCourse(Course course){
+    public void setPlayersCourse(Course course){
         this.course = course;
     }
 
